@@ -1,0 +1,2 @@
+on teleport:
+  message "You teleported"
