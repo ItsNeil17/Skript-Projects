@@ -1,0 +1,2 @@
+on load:
+  register new shaped recipe for fishing rod named "&6Custom Item" using air, diamond, air, air, stick, diamond, stick, air, diamond with id "grapple"
