@@ -1,3 +1,5 @@
+# Wiki
+THIS IS NOT THE PROJECTS WIKI! View the wiki at https://github.com/Neilisop/Skript-Projects/wiki
 # Skript Projects
 Here I'll be releaseing alot of skript projects and you can download them any time!(Just don't use them for big servers and not give any credit to me).
 # About skript
