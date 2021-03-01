@@ -1,0 +1,3 @@
+on join:
+    message "Welcome on our awesome server!"
+    broadcast "%player% just joined the server!"
