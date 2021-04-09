@@ -1,0 +1,5 @@
+command /bz:
+    permission: neil.bz
+    permission message: &4You don't have permission.
+    trigger:
+        make player execute command "shop"
