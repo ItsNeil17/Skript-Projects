@@ -1,0 +1,23 @@
+command /give <player> <item types>:
+	description: Give someone else some items
+	usage: /give <player> to <item(s)>
+	permission: neil.give
+	trigger:
+		send "&bGiving %argument 2% &bto &b%argument 1%" to player
+		send "&aSuccess!" to player
+		loop argument 2:
+			if player has permission "neil.give.%ID of loop-item%":
+				give loop-item to argument 1
+				send "&aYou have been given %loop-item% &aby an admin!" to argument 1
+			else:
+				message "<red>You don't have permission to give away free <red>%loop-item%<reset>!"
+
+command /i <item types>:
+	description: Give Items to yourself
+	usage: /i <item(s)>
+	permission: neil.give
+	trigger:
+		send "&aSuccess!" to player
+		loop argument 1:
+			if player has permission "neil.give.%ID of loop-item%":
+				give loop-item to player
