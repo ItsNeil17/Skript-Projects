@@ -1,0 +1,2 @@
+on quit:
+  send "%player% has left the server" to all
