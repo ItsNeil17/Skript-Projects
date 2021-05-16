@@ -1,0 +1,2 @@
+on piston retract:
+    broadcast "A piston is retracting!"
